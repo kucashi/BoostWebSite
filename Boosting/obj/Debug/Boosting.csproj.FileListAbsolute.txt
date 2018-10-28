@@ -118,3 +118,9 @@ C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\obj\Debug\Boosting.csproj.Cor
 C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\obj\Debug\Boosting.csproj.CopyComplete
 C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\obj\Debug\Boosting.dll
 C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\obj\Debug\Boosting.pdb
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\Google.Protobuf.dll
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\MySql.Data.dll
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\Google.Protobuf.xml
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\MySql.Data.xml
+C:\Users\Andrei\Desktop\SiteGilu\Boosting\Boosting\bin\MySql.Data.Entity.EF6.xml

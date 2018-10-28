@@ -8,9 +8,9 @@ namespace Boosting.Models
 {
     public class ContactModel
     {
-        [Required, Display(Name = "Your name")]
+        [Required]
         public string name { get; set; }
-        [Required, Display(Name = "Your email"), EmailAddress]
+        [Required, EmailAddress]
         public string emailAddress { get; set; }
         public int orderNumber { get; set; }
         [Required]
