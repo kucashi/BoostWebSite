@@ -210,6 +210,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PagesController.cs" />
@@ -289,7 +290,7 @@
     <Content Include="Views\Pages\HelpCenter.cshtml" />
     <Content Include="Views\Pages\ContactUs.cshtml" />
     <Content Include="Views\Email\SendSuccesfull.cshtml" />
-    <Content Include="Views\Pages\Test.cshtml" />
+    <Content Include="Views\Admin\Customers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

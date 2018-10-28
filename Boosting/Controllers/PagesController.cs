@@ -44,34 +44,5 @@ namespace Boosting.Controllers
         {
             return View();
         }
-
-        public ActionResult Test()
-        {
-            List<OrdersModel> customers = new List<OrdersModel>();
-            string constr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-            using (MySqlConnection con = new MySqlConnection(constr))
-            {
-                string query = "SELECT BattleNetUser, BattleNetPass FROM orders";
-                using (MySqlCommand cmd = new MySqlCommand(query))
-                {
-                    cmd.Connection = con;
-                    con.Open();
-                    using (MySqlDataReader sdr = cmd.ExecuteReader())
-                    {
-                        while (sdr.Read())
-                        {
-                            customers.Add(new OrdersModel
-                            {
-                                battleNetUser = sdr["BattleNetUser"].ToString(),
-                                battleNetPassword = sdr["BattleNetPass"].ToString()
-                            });
-                        }
-                    }
-                    con.Close();
-                }
-            }
-
-            return View(customers);
-        }
     }
 }
