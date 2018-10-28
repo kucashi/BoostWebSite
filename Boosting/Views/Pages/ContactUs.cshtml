@@ -1,0 +1,45 @@
+﻿@model Boosting.Models.ContactModel
+
+@{
+    ViewBag.Title = "ContactUs";
+}
+
+    <table>
+        <tr>
+            <td>
+                <label>Name</label>
+            </td>
+            <td>
+                <label>E-mail</label>
+            </td>
+            <td>
+                <label>Order Number</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.TextBox("name")
+            </td>
+            <td>
+                @Html.TextBox("emailAdress")
+            </td>
+            <td>
+                @Html.TextBox("orderNumber")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Message</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.TextArea("message")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Submit" onclick="location.href='@Url.Action("Sent", "Email")'"/>
+            </td>
+        </tr>
+    </table>
